@@ -1,4 +1,4 @@
-Zen of Python!!!
+The Zen of Python, by Tim Peters!!!
 
 1.
 2.
