@@ -7,7 +7,7 @@ The Zen of Python, by Tim Peters!!!
 5.
 6.
 7.
-8.
+8.Special cases aren't special enough to break the rules.
 9.
 10.Errors should never pass silently.
 11.
@@ -18,6 +18,6 @@ The Zen of Python, by Tim Peters!!!
 16.
 17.
 18.
-19.
+19.Namespaces are one honking great idea -- let's do more of those!
 20.
 21.
