@@ -9,7 +9,7 @@ The Zen of Python, by Tim Peters!!!
 7.
 8.
 9.
-10.
+10.Errors should never pass silently.
 11.
 12.
 13.
