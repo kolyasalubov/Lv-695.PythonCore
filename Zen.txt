@@ -19,5 +19,5 @@ The Zen of Python, by Tim Peters!!!
 17.If the implementation is hard to explain, it's a bad idea.
 18.
 19.Namespaces are one honking great idea -- let's do more of those!
-20.
+20.Beautiful is better than ugly.
 21.
