@@ -22,6 +22,7 @@ The Zen of Python, by Tim Peters!!!
 20.Beautiful is better than ugly.
 21.Explicit is better than implicit.
 22.Beautiful is better than ugly
+25.Sparse is better than dense.
 29.Errors should never pass silently.
 31.Errors should never pass silently.
 36.Now is better than never.
