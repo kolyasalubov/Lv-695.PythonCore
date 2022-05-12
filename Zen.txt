@@ -31,8 +31,4 @@ The Zen of Python, by Tim Peters!!!
 37.Although never is often better than *right* now.
 40.Namespaces are one honking great idea -- let's do more of those!
 41.Simple is better than complex.
-<<<<<<< HEAD
-
-=======
 42.Complex is better than complicated.
->>>>>>> VladPostnikov
