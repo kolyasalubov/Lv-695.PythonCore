@@ -23,3 +23,4 @@ The Zen of Python, by Tim Peters!!!
 21.Explicit is better than implicit.
 22.Beautiful is better than ugly
 40.Namespaces are one honking great idea -- let's do more of those!
+41.There should be one-- and preferably only one --obvious way to do it.
