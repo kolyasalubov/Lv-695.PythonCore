@@ -23,10 +23,7 @@ The Zen of Python, by Tim Peters!!!
 21.Explicit is better than implicit.
 22.Beautiful is better than ugly
 29.Errors should never pass silently.
-<<<<<<< HEAD
 31.Errors should never pass silently.
-=======
 36.Now is better than never.
->>>>>>> MaksKamentsev
 40.Namespaces are one honking great idea -- let's do more of those!
 41.Simple is better than complex.
