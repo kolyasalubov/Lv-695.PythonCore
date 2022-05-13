@@ -29,6 +29,7 @@ The Zen of Python, by Tim Peters!!!
 31.Errors should never pass silently.
 36.Now is better than never.
 37.Although never is often better than *right* now.
+38.Namespaces are one honking great idea -- let's do more of those!
 40.Although practicality beats purity.
 41.Simple is better than complex.
 42.Complex is better than complicated.
