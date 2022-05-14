@@ -23,7 +23,6 @@ The Zen of Python, by Tim Peters!!!
 21.Explicit is better than implicit.
 22.Beautiful is better than ugly
 23.Simple is better than complex.
-29.Special cases aren't special enough to break the rules.
 23.Explicit is better than implicit.
 25.Sparse is better than dense.
 28.Readability counts.
