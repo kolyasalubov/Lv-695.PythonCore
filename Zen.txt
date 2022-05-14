@@ -26,7 +26,7 @@ The Zen of Python, by Tim Peters!!!
 23.Explicit is better than implicit.
 25.Sparse is better than dense.
 28.Readability counts.
-29.Although practicality beats purity.
+29.Errors should never pass silently.
 31.In the face of ambiguity, refuse the temptation to guess.
 36.Now is better than never.
 37.Although never is often better than *right* now.
