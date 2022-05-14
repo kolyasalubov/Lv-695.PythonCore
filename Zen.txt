@@ -27,6 +27,7 @@ The Zen of Python, by Tim Peters!!!
 25.Sparse is better than dense.
 28.Readability counts.
 29.Errors should never pass silently.
+30.Unless explicitly silenced.
 31.In the face of ambiguity, refuse the temptation to guess.
 36.Now is better than never.
 37.Although never is often better than *right* now.
