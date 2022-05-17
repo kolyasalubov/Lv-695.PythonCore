@@ -20,7 +20,19 @@ The Zen of Python, by Tim Peters!!!
 18.If the implementation is easy to explain, it may be a good idea.
 19.Namespaces are one honking great idea -- let's do more of those!
 20.Beautiful is better than ugly.
-27.Explicit is better than implicit.
-
+21.Explicit is better than implicit.
 22.Beautiful is better than ugly
-23.Sparse is better than dense.
+23.Simple is better than complex.
+25.Sparse is better than dense.
+27.Special cases aren't special enough to break the rules.
+28.Readability counts.
+29.Errors should never pass silently.
+30.Unless explicitly silenced.
+31.In the face of ambiguity, refuse the temptation to guess.
+36.Now is better than never.
+37.If the implementation is easy to explain, it may be a good idea.
+38.Namespaces are one honking great idea -- let's do more of those!
+40.Namespaces are one honking great idea -- let's do more of those!
+41.Simple is better than complex.
+42.Complex is better than complicated.
+
