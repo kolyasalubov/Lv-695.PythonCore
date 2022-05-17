@@ -35,4 +35,3 @@ The Zen of Python, by Tim Peters!!!
 40.Namespaces are one honking great idea -- let's do more of those!
 41.Simple is better than complex.
 42.Complex is better than complicated.
-
