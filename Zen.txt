@@ -31,5 +31,6 @@ The Zen of Python, by Tim Peters!!!
 36.Now is better than never.
 37.If the implementation is easy to explain, it may be a good idea.
 38.Namespaces are one honking great idea -- let's do more of those!
+40.Namespaces are one honking great idea -- let's do more of those!
 41.Simple is better than complex.
 42.Complex is better than complicated.
