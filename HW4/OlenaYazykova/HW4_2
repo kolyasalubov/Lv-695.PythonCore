@@ -1,0 +1,7 @@
+number_of_elements=int(input("Enter the number of items in the list:"))
+my_int_list=[]
+my_float_list=[]
+for i in range(number_of_elements):
+    my_int_list.append(int(input(f"Enter number {i+1}: ")))
+    my_float_list.append(float(my_int_list[i]))
+print(my_float_list)
