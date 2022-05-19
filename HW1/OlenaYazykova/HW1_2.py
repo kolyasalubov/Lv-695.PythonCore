@@ -1,6 +1,8 @@
 
 key=True
 def is_digit(c,key):
+    """This function check if the input parameter is integer or float number"""
+
     if c.isdigit():
         c=int(c)
         key=False
@@ -27,12 +29,12 @@ while key==True:
     b,key=is_digit(c,key)
     if key==True:
         print("The variable is not a number!")
-print(f"a+b={a+b}")
-print(f"a-b={a-b}")
-print(f"a*b={a*b}")
-print(f"a**b={a**b}")
+print(f"a+b = {a+b}")
+print(f"a-b = {a-b}")
+print(f"a*b = {a*b}")
+print(f"a**b = {a**b}")
 try:
-    print(f"a/b={a/b}")
-    print(f"a//b={a//b}")
+    print(f"a/b = {a/b}")
+    print(f"a//b = {a//b}")
 except ZeroDivisionError:
     print("Division by 0!")
