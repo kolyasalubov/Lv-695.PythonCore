@@ -1,0 +1,8 @@
+login = str()
+while True:
+    login = input("Input login: ")
+    if login == "First":
+        break
+    else:
+        print("Error")
+        
