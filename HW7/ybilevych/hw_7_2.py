@@ -1,7 +1,7 @@
 import re
 
 password = input("Password:\n")
-if len(password) <= 6 and len(password) >= 16:
+if len(password) < 6 or len(password) > 16:
     print("Your password invalid, lenght must be between 6 and 16 characters.")
 elif len(re.findall('[A-Z]', password)) == 0:
     print("Your password invalid, you need at least 1 letter between [A-Z].")
