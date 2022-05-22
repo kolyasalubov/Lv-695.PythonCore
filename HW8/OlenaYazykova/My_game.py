@@ -20,10 +20,9 @@ DELTA_STEP=5
 pygame.init()
 # pygame.display.set_mode((600, 400))
 
-gameDisplay=pygame.display.set_mode((WIDTH_DISPLAY, HEIGHT_DISPLAY), pygame.RESIZABLE)
+gameDisplay=pygame.display.set_mode((WIDTH_DISPLAY, HEIGHT_DISPLAY))
 
 pygame.display.set_caption("My first game")
-
 
 run = True
 clock = pygame.time.Clock()
