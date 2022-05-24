@@ -1,54 +1,32 @@
-import pygame
+from pyowm import OWM
+from pyowm.utils import config
+from pyowm.utils import timestamps
 
-FPS = 60
+owm = OWM('ef2206ff5da67de63306d0b143e20872')
+mgr = owm.weather_manager()
 
-WIDTH_DISPLAY = 500
-HEIGHT_DISPLAY = 500
+observation = mgr.weather_at_place('London,GB')
+w = observation.weather
 
-WHITE_COLOR = (255, 255, 255)
-ORANGE_COLOR = (255, 150, 100)
+city=input("The weather in which city are you interested in: ")
+wind=w.wind()
+temp=w.temperature('celsius')
+humidity=w.humidity
 
-COORD_X = 50
-COORD_Y = 50
-WIDTH_RECTANGLE = 40
-HEIGHT_RECTANGLE = 60
-DELTA_STEP = 5
+if wind.get('speed')<5:
+    print(f"The wind in {city} is light today, {wind.get('speed')} m.p.h.")
+elif  wind.get('speed')<10:
+    print(f"The wind in {city} is medium today, {wind.get('speed')} m.p.h.")
+elif  wind.get('speed')>10:
+      print(f"The wind in {city} is strong today, {wind.get('speed')} m.p.h.")
 
-# ініціалізація та створення об'єктів
-pygame.init()
-# pygame.display.set_mode((600, 400))
+if temp.get('temp_max')>=25:
+    print(f"The weather is hot today. During the day the temperature rises to {temp.get('temp_max')} degrees C. Night temperature is {temp.get('temp_min')} degrees C.")
+elif temp.get('temp_max')>=10:
+    print(f"The weather is warm today. During the day the temperature rises to {temp.get('temp_max')} degrees C. Night temperature is {temp.get('temp_min')} degrees C.")
+elif temp.get('temp_max')>=0:
+    print(f"The weather is cool today. During the day the temperature rises to {temp.get('temp_max')} degrees C. Night temperature is {temp.get('temp_min')} degrees C.")
+elif temp.get('temp_max')<0:
+    print(f"It's frosty today. During the day the temperature rises to {temp.get('temp_max')} degrees C. Night temperature is {temp.get('temp_min')} degrees C.")
 
-gameDisplay = pygame.display.set_mode((WIDTH_DISPLAY, HEIGHT_DISPLAY), pygame.RESIZABLE)
-
-pygame.display.set_caption("My first game")
-
-run = True
-clock = pygame.time.Clock()
-
-while run:
-    pygame.time.delay(1)
-
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            run = False
-
-    keys = pygame.key.get_pressed()
-
-    if keys[pygame.K_LEFT] and COORD_X > DELTA_STEP:
-        COORD_X = COORD_X - DELTA_STEP
-    if keys[pygame.K_RIGHT] and COORD_X < (WIDTH_DISPLAY - (WIDTH_RECTANGLE + DELTA_STEP)):
-        COORD_X = COORD_X + DELTA_STEP
-    if keys[pygame.K_UP] and COORD_Y > DELTA_STEP:
-        COORD_Y = COORD_Y - DELTA_STEP
-    if keys[pygame.K_DOWN] and COORD_Y < (WIDTH_DISPLAY - (HEIGHT_RECTANGLE + DELTA_STEP)):
-        COORD_Y = COORD_Y + DELTA_STEP
-
-    gameDisplay.fill((0, 0, 0))
-
-    pygame.draw.rect(gameDisplay, (255, 0, 0), [COORD_X,
-                                                COORD_Y,
-                                                WIDTH_RECTANGLE,
-                                                HEIGHT_RECTANGLE])
-    pygame.display.update()
-    clock.tick(FPS)
-    
+print(f"In {city} the humidity of the air is {humidity}%.")
