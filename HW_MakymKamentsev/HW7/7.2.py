@@ -13,3 +13,4 @@ elif len(re.findall('[$#@]', password)) == 0:
     print("Your password invalid, you need at least 1 symbol from [$#@].")
 else:
     print("Your password correct.")
+    
