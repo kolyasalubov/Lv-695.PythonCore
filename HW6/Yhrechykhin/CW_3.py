@@ -1,7 +1,4 @@
-def create_array(n):
-    res=[]
-    i=1
-    while i<=n:
-        res+=[i]
-        i+= 1
-    return res
+def number_to_string(num):
+    return str(num)
+
+print(number_to_string(100))

@@ -1,4 +1,7 @@
-def reverse(st):
-    return " ".join(st.split()[::-1])
+def greet(name):
+    if name == "Johnny":
+        return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
 
-print(reverse('Code Wars'))
+print(greet("Johnny"))
+print(greet("Garry"))

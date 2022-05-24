@@ -1,4 +1,4 @@
-def number_to_string(num):
-    return str(num)
+def reverse(st):
+    return " ".join(st.split()[::-1])
 
-print(number_to_string(100))
+print(reverse('Code Wars'))
