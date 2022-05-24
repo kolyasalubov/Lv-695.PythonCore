@@ -10,3 +10,4 @@ while flag:
         flag = False
     else:
         print("Your number is too hight. Enter next number." if ans > x else "Your number is too low. Enter next number.")
+        
