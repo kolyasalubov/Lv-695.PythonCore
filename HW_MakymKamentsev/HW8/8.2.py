@@ -1,7 +1,5 @@
 import pygame
 
-# визначаємо константу затримки кадрів
-# та інші константи
 FPS = 60
 
 WIDTH_DISPLAY = 500
@@ -53,3 +51,4 @@ while run:
                                                 HEIGHT_RECTANGLE])
     pygame.display.update()
     clock.tick(FPS)
+    
