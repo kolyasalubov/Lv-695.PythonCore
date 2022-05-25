@@ -6,9 +6,9 @@ not_divisible = []
 for numbers in range(1,11):
     if numbers % 2 == 0:
         even_numbers.append(numbers)
-    if numbers % 3 == 0:
+    elif numbers % 3 == 0:
         odd_numbers.append(numbers)
-    if numbers % 2 != 0 and numbers % 3 != 0:
+    elif numbers % 2 != 0 and numbers % 3 != 0:
         not_divisible.append(numbers)
 
 print(f'Even numbers that are divisible by 2 = {even_numbers}')
