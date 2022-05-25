@@ -1,0 +1,21 @@
+numb_of_array=int(input("Enter the number of array elements: "))
+arr=[]
+for i in range(numb_of_array):
+    arr.append(int(input(f"Enter the element number {i}: ")))
+
+
+def count_positives_sum_negatives(arr):
+    count1=0
+    sum1=0
+    arr1=[]
+    if len(arr)!=0:
+        for i in range(0,len(arr)):
+            if arr[i]>0:
+                count1+=1
+            elif arr[i]<0:
+                sum1+=arr[i] 
+        arr1.append(count1)
+        arr1.append(sum1)
+    return arr1
+
+print(count_positives_sum_negatives(arr))
