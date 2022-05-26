@@ -14,3 +14,4 @@ if zero_fuel(distance_to_pump, mpg, fuel_left)==1:
     print("You can get to the pump.")
 else:
     print("You can't get to the pump.")
+    

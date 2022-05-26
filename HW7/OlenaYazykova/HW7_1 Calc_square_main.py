@@ -20,3 +20,4 @@ while key:
     else:
         key=True
         print("Data format error!")
+        

@@ -14,3 +14,4 @@ def areaOfCircle(radius_of_circle: float) ->float:
     """The function returns the area of circle."""
 
     return round(math.pi*math.pow(radius_of_circle,2),2)
+    

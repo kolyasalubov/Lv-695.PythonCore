@@ -59,3 +59,4 @@ elif geom_fig=='3':
     s.findArea()
 else:
     print("You enter the wrong number.")
+    

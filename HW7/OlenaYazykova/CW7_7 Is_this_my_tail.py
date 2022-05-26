@@ -12,3 +12,4 @@ if correct_tail(body, tail)==True:
     print ("It's a right tail.")
 else:
     print ("It's a wrong tail.")
+    

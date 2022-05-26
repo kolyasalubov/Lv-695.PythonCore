@@ -15,3 +15,4 @@ while  number_2!=number_1:
        count_attempts+=1
 else:
     print(f"Excellent! You guessed the number {number_1}. Number of your attempts is {count_attempts}.")
+    
