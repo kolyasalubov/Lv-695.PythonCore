@@ -1,6 +1,3 @@
-from xmlrpc.server import DocCGIXMLRPCRequestHandler
-
-
 def double_char(s):
     new_str = ''
     for i in s:
