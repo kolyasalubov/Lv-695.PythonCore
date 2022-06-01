@@ -1,0 +1,17 @@
+def MultipliedN(n):
+    mN = 1
+    while n != 0:
+        mN = mN * (n % 10)
+        n = n // 10
+    return mN
+def ReversedN(n):
+    rN = str(n)
+    return ''.join(reversed(rN))
+def SortedN(n):
+    sN = str(n)
+    lN = list(sN)
+    return sorted(lN)
+n = 3456
+print(MultipliedN(n))
+print(ReversedN(n))
+print(SortedN(n))

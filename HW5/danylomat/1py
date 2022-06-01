@@ -1,0 +1,12 @@
+for i in range(11):
+    if i % 2 == 0:
+        print(i)
+print("/////////")
+for i in range(11):
+    if i % 3 == 0 :
+        print(i)
+print("/////////")
+for i in range(11):
+    if i % 3 != 0 and i % 2 !=0:
+        print(i)
+print("/////////")

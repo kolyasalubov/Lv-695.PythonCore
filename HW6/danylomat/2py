@@ -1,0 +1,17 @@
+from cmath import pi
+def rectangle(a,b):
+    a = int(input("Enter rectangle's length: "))
+    b = int(input("Enter rectangle's breadth: "))
+    return a*b
+def triangle(b,h):
+    h = int(input("Enter triangle's height length: "))
+    b = int(input("Enter triangle's base length: "))
+    return 0.5 * b * h
+def circle(r):
+    r = int(input("Enter circle's radius length: "))
+    return r**2  * pi
+
+
+print(f"area of a rectangle = {rectangle(1,2)}, triangle = {triangle(3,4)}, circle = {circle(5)}")
+triangle(3,4)
+circle(5)

@@ -1,0 +1,10 @@
+def number_of_characters(word):
+    result = {}
+    for i in word:
+         result.update({(i): word.count(i)})
+    return result
+
+
+
+enter_word = input("Enter your word: ")
+print(number_of_characters(enter_word))
