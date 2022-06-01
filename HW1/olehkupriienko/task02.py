@@ -1,0 +1,7 @@
+a = int(input('Enter the value of "a"\na = '))
+b = int(input('Enter the value of "b"\nb = '))
+print('a + b =', a + b)
+print('a - b =', a - b)
+print('a * b =', a * b)
+print('a / b =', a / b)
+print('a ** b =', a ** b)
