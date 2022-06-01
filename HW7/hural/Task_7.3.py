@@ -1,3 +1,6 @@
+import math
+name=input("Enter the name of figure")
+
 def area ( name ):
     
  if name == "rectangle":
