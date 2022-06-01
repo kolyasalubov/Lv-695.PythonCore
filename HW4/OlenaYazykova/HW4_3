@@ -1,0 +1,6 @@
+number_of_fib=int(input("Enter the number of Fibanacci numbers :"))
+list_of_fib=[0,1]
+for i in range(number_of_fib):
+    list_of_fib.append(list_of_fib[i]+list_of_fib[i+1])
+print(f"Fibonacci sequence up to number {number_of_fib} is:")
+print(list_of_fib)

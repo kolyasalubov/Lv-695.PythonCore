@@ -1,0 +1,7 @@
+number_for_factorial=int(input("Input a number to calculate the factorial:"))
+list_for_factorial=[1]
+value_of_factorial=1
+for i in range(0,number_for_factorial):
+    list_for_factorial.append(i+1)
+    value_of_factorial*=list_for_factorial[i+1]
+print(f"{number_for_factorial}!={value_of_factorial}")
