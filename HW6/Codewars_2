@@ -1,0 +1,8 @@
+st=input('Enter a string:')
+def filter_words(st):
+    return 
+print(st.capitalize())
+
+#In codewars 
+def filter_words(st):
+    return st.capitalize()
