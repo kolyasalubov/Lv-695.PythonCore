@@ -1,7 +1,6 @@
 from tkinter import *
-import pytube
 from pytube import YouTube
-#create display window
+
 root = Tk()
 root.geometry('500x300')
 root.resizable(0, 0)
@@ -30,3 +29,21 @@ Button(root, text='DOWNLOAD', font='arial 15 bold', bg='pale violet red', padx=2
                                                                                                             y=150)
 
 root.mainloop()
+# from pytube import YouTube
+#
+# #ask for the link from user
+# link = input("Enter the link of YouTube video you want to download:  ")
+# yt = YouTube(link)
+#
+# #Showing details
+# print("Title: ",yt.title)
+# print("Number of views: ",yt.views)
+# print("Length of video: ",yt.length)
+# print("Rating of video: ",yt.rating)
+# #Getting the highest resolution possible
+# ys = yt.streams.get_highest_resolution()
+#
+# #Starting download
+# print("Downloading...")
+# ys.download()
+# print("Download completed!!")
