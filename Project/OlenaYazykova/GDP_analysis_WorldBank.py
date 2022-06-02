@@ -95,7 +95,7 @@ def get_gdp(my_year, flag):
             text.insert(1.0, "Information saved in the file GDP_info.txt")
             with open('GDP_info.txt', mode='a', encoding='utf-8') as f:
                 f.write(gdp_info)
-                
+
 root=tk.Tk()
 
 canvas=tk.Canvas(root, height=HEIGHT, width=WIDTH)
