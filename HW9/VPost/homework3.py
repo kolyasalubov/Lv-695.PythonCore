@@ -20,10 +20,10 @@ class Employee:
 if __name__ == "__main__":
     emp_1 = Employee('Oleh', 1000)
     emp_1.employee_info()
-    emp_2 = Employee('Ilona', 1550)
+    emp_2 = Employee('Mike', 1550)
     emp_2.employee_info()
     Employee.total_employee_quantity()
-    emp_3 = Employee('Tanya', 2120)
+    emp_3 = Employee('Vlad', 2120)
     emp_3.employee_info()
     Employee.total_employee_quantity()
     Employee.__del__(emp_1)
